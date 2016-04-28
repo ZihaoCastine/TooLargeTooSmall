@@ -18,10 +18,11 @@ public class TooLargeTooSmall {
         System.out.println("Yeah you guess the right number");
 
     }
-    public static boolean guess(int guess, int ans){
-        if(guess==ans) {
+
+    public static boolean guess(int guessNum, int ans){
+        if(guessNum==ans) {
             return true;
-        }else if(guess> ans){
+        }else if(guessNum> ans){
             System.out.println("Number is too larger");
         }else{
             System.out.println("Number is too small");
